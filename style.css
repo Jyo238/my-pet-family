@@ -1,0 +1,144 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar*/
+.navbar {
+    background-color: #1F2937;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    /* margin-left: auto;
+    padding: 0px 100px 0px 0px;   */
+}
+
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    margin-right: 40px;
+}
+
+/* hero */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 50vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.hero .left .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero .left .content {
+    font-family: 'Roboto', arial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* main-content */
+.main-content {
+    /* display: flex; */
+    /* background-color: #1F2937; */
+    /* color: #F9FAF8; */
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+
+    min-height: 50vh;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.main-content .title{
+    display: flex;
+    /* background-color: #1F2937; */
+    /* color: #F9FAF8; */
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+}
+
+.main-content .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .info img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
