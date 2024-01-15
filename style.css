@@ -11,16 +11,6 @@ body {
     flex-direction: column;
 }
 
-.page {
-    min-height: 100vh;
-    width: 100%;
-    padding: 20px;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 /* navbar*/
 .navbar {
     background-color: #1F2937;
@@ -64,9 +54,6 @@ html {
     color: #F9FAF8;
     align-items: center;
     justify-content: center;
-
-    min-height: 50vh;
-    width: 100%;
     padding: 20px;
 }
 
@@ -107,24 +94,9 @@ html {
 }
 
 /* main-content */
-.main-content {
-    /* display: flex; */
-    /* background-color: #1F2937; */
-    /* color: #F9FAF8; */
-    /* align-items: center; */
-    text-align: center;
-    justify-content: center;
-
-    min-height: 50vh;
-    width: 100%;
-    /* padding: 20px; */
-}
 
 .main-content .title{
     display: flex;
-    /* background-color: #1F2937; */
-    /* color: #F9FAF8; */
-    /* align-items: center; */
     text-align: center;
     justify-content: center;
 }
@@ -148,10 +120,10 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    min-height: 30vh;
     background-color: #E5E7EB;
     color:#1F2937;
+
+    padding: 32px;
 }
 
 .quote p {
@@ -171,11 +143,11 @@ html {
 
 /*sign-up*/
 .sign-up{
-    min-height: 30vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 32px;
 }
 
 .sign-up .box{
